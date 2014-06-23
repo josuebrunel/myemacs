@@ -18,22 +18,21 @@
 
 (global-linum-mode 1) ;; Display line numbers in margin
 
-(load-file "/Users/josue/.emacs.d/emacs-for-python-master/epy-init.el")
+(load-file "~/.emacs.d/emacs-for-python-master/epy-init.el")
 
 ;;LOADING COLOR-THEME
-(add-to-list 'load-path "/Users/josue/.emacs.d/color-theme/")
+(add-to-list 'load-path "~/.emacs.d/color-theme/")
 (require 'color-theme)
 (color-theme-initialize)
 (color-theme-calm-forest) ;; my current color-theme
 
 ;;LOADING PYTHON DJANGO TOOLS
-(add-to-list 'load-path "/Users/josue/.emacs.d/python-django/")
+(add-to-list 'load-path "~/.emacs.d/python-django/")
 (require 'python-django)
 
 ;;LOADING GO-MODE
-(add-to-list 'load-path "/Users/josue/.emacs.d/go-mode/")
+(add-to-list 'load-path "~/.emacs.d/go-mode/")
 (require 'go-mode-load)
 
 ;;AUTO INSERT
-(message "$HOME")
 

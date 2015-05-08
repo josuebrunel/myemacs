@@ -1,0 +1,3 @@
+[submodule "emacs-for-python-master"]
+	path = emacs-for-python-master
+	url = https://github.com/gabrielelanaro/emacs-for-python
